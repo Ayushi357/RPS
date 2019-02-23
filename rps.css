@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.score-board {
+	border: 3px solid black;
+	margin: 20px auto;
+	text-align: center;
+	padding: 15px 20px;
+
+}
+
+#user-label {
+	position: absolute;
+	top:30px;
+	left: -25px;
+}
+
+#computer-label {
+	position: absolute;
+	top:30px;
+	right: : -30px;
+}
+
+.choices {
+	align-items: center;
+}
+
+.choice {
+	align-items: center;
+}
