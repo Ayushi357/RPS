@@ -3,34 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>Rock Papers Scissors</title>
-	<link rel="stylesheet" type="text/css" href="rps.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
 		<h1>Rock Paper Scissors</h1>
 	</header>
+
 		<div class="score-board">
-		<div id="computer-label" class="badge">Computer</div>
-		<div id="user-label" class="badge">Player</div>
-		<span id="user-score">0</span><span id="computer-score">0</span>
+		   <div id="computer-label" class="badge">Computer</div>
+		   <div id="user-label" class="badge">Player</div>
+		   <span id="user-score">0</span>:<span id="computer-score">0</span>
 	    </div>
 	    <div class="result">
 	    	<p>Paper covers rock. You win!</p>
 	    </div>
 
 	    <div class="choices">
-	    	<div class="choice" id="r"></div>
-	    	<img width="50px" height="50px"src="images/rock.png">
+	    	<div class="choice" id="r">
+	    	   <img width="50px" height="50px"src="images/rock.png">
+	        </div>
+	    	<div class="choice" id="p">
+	    	   <img width="50px" height="50px" src="images/paper.png">
+	        </div>
+	    	<div class="choice" id="s">
+	    	   <img width="50px" height="50px" src="images/scissor.png">
+	        </div>
 	    </div>
-	    <div class="choices">
-	    	<div class="choice" id="p"></div>
-	    	<img width="50px" height="50px" src="images/paper.png">
-	    </div>
-	    <div class="choices">
-	    	<div class="choice" id="s"></div>
-	    	<img width="50px" height="50px" src="images/scissor.png">
-	    </div>
+	    
 	    <p id="action-message">Make your move</p>
-	    <script type="text/javascript" src="rps.js"></script>
+	    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
